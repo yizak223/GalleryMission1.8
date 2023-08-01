@@ -6,9 +6,10 @@ main{
     width: 50vw;
     margin-left: 25vw;
     margin-top: 10vh;
-    background-size: 55%;
+    background-size: auto;
+    background-size: 50% 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top center;
     animation: slide 13.5s backwards;
     background-image: url(1spiderman-background.jpg);
 }

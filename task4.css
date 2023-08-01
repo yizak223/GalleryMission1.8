@@ -7,7 +7,8 @@ main{
     height: 95vh;
     width: 50vw;
     margin-left: 25vw;
-    background-size: cover;
+    background-size: auto;
+    background-size: 50% 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(1spiderman-background.jpg);
@@ -19,10 +20,10 @@ main{
     position: relative;
     left: 40vh;
     top: 20vw;
-    border: solid;
+
 }
 .arrowR{
-    border: solid;
+  
     height: fit-content;
     width: fit-content;
     font-size: 40px;
@@ -35,11 +36,11 @@ main{
 
 .arrowL:hover ~main{
     background-image: url(1spiderman-background.jpg);
-    animation: slide 10s backwards;
+    animation: slide 10s forwards;
 }
 .arrowR:hover +main{
     background-image: url(1spiderman-background.jpg);
-    animation: slide 10s backwards;
+    animation: slide 10s forwards;
 }
 
 @keyframes slide{
