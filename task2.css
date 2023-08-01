@@ -1,0 +1,70 @@
+body{
+    margin-left: 5vh;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+.image1{
+    height: 60vh;
+    width: 30vw;
+    background-image: url(spider-man&girlfriend.jpg);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: right;
+    animation: leftimg 3s  forwards;
+}
+.image2{
+    background-color: rgb(255, 19, 19);
+    height: 60vh;
+    width: 30vw;
+    background-image: url(spiderman-background.jpg);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: centerimg 3s  forwards;
+}
+.image3{
+    background-color: rgb(255, 19, 19);
+    height: 60vh;
+    width: 30vw;
+    background-image: url(jump-spiderman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    animation: rightimg 3s  forwards;
+}
+
+@keyframes leftimg{
+    0%{
+        background-image: url(spider-man&girlfriend.jpg);
+    }
+    33%{
+        background-image: url(spider-man-oposite.jpg);
+    }
+    66%{
+        background-image: url(spiderman-sit.jpeg);
+    }
+}
+@keyframes centerimg{
+    0%{
+        background-image: url(spiderman-background.jpg);
+    }
+    33%{
+        background-image: url(on-the-air-spiderman.jpg);
+    }
+    66%{
+        background-image: url(three-spiderman.jpg);
+    }
+}
+@keyframes leftimg{
+    0%{
+        background-image: url(spider-man&girlfriend.jpg);
+    }
+    33%{
+        background-image: url(spider-man-oposite.jpg);
+    }
+    66%{
+        background-image: url(spiderman-sit.jpeg);
+    }
+}

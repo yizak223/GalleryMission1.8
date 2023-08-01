@@ -10,7 +10,7 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     animation: slide 13.5s backwards;
-    background-image: url(spiderman-background.jpg);
+    background-image: url(6spiderman-background.jpg);
 }
 div{
     position: absolute;
@@ -19,30 +19,30 @@ div{
 
 @keyframes slide{
     0%{
-        background-image: url(spiderman-background.jpg);
+        background-image: url(6spiderman-background.jpg);
 }
     11%{
-         background-image: url(spider-man-oposite.jpg);
+         background-image: url(4spider-man-oposite.jpg);
 }
     22%{
-        background-image: url(spider-man&girlfriend.jpg);
+        background-image: url(5spider-man&girlfriend.jpg);
 }
    33%{
-    background-image: url(spiderman-hang.jpg);
+    background-image: url(7spiderman-hang.jpg);
 }
    44%{
-    background-image: url(spiderman-sit.jpeg);
+    background-image: url(8spiderman-sit.jpeg);
 }
     55%{
-    background-image: url(jump-spiderman.jpg);
+    background-image: url(2jump-spiderman.jpg);
 }
     66%{
-    background-image: url(fight-spiderman.webp);
+    background-image: url(1fight-spiderman.webp);
 }
     77%{
-    background-image: url(on-the-air-spiderman.jpg);
+    background-image: url(3on-the-air-spiderman.jpg);
 }   
 88%{
-    background-image: url(three-spiderman.jpg);
+    background-image: url(9three-spiderman.jpg);
 }
 }
