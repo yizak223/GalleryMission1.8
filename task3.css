@@ -1,20 +1,36 @@
-
 main{
     background-color: aqua;
     position: relative;
-    height: 80vh;
+    height: 95vh;
     width: 50vw;
     margin-left: 25vw;
-    margin-top: 10vh;
-    background-size: 55%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    animation: slide 13.5s backwards;
     background-image: url(1spiderman-background.jpg);
 }
+/* .arrowL{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    font-size: 40px;
+    margin-top: 35%;
+    margin-left: 6%;
+}
+.arrowR{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    font-size: 40px;
+    margin-top: 35%;
+    margin-left: 90%;
+} */
+main:hover{
+    background-image: url(1spiderman-background.jpg);
+    animation: chngeImage 12s backwards;
+}
 
-
-@keyframes slide{
+@keyframes chngeImage{
     0%{
         background-image: url(1spiderman-background.jpg);
 }
@@ -43,3 +59,7 @@ main{
     background-image: url(9three-spiderman.jpg);
 }
 }
+
+/* main:has(.arrowL:hover){
+    background-image: url(2spider-man-oposite.jpg);
+} */
